@@ -1,13 +1,15 @@
 <template>
   <div class="backdrop">
-    <div class="modal" @click="hideUnits">
-      <p>{{ building }} {{ unit }}</p>
+    <div @click="hideUnits">
+      <p>{{ building }} Unit-{{ unit }}</p>
       <slot name="occupant"><h2>no one here but us chickens</h2></slot>
     </div>
   </div>
 </template>
 
 <script>
+import Element from "../components/Element";
+
 export default {
   name: "Unit",
   props: ["building", "unit"],
@@ -19,5 +21,5 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 </style>
