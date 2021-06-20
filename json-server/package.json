@@ -2,7 +2,7 @@
     "name": "inspection-frontend-json-server",
     "version": "0.1.0",
     "scripts": {
-	"server": "json-server --watch db.json"
+	"server": "json-server --watch db2.json"
     }, 
     "dependencies": {
 	"json-server": "0.16.3"

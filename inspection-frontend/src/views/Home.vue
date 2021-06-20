@@ -22,104 +22,15 @@ export default {
   },
   data() {
     return {
-      buildings: [
-        {
-          number: 3735,
-          units: [
-            {
-              number: 1
-            },
-            {
-              number: 2
-            },
-            {
-              number: 3
-            },
-            {
-              number: 4
-            },
-            {
-              number: 5
-            },
-            {
-              number: 6
-            }
-          ]
-        },
-        {
-          number: 3737,
-          units: [
-            {
-              number: 1
-            },
-            {
-              number: 2
-            },
-            {
-              number: 3
-            },
-            {
-              number: 4
-            },
-            {
-              number: 5
-            },
-            {
-              number: 6
-            }
-          ]
-        },
-        {
-          number: 3739,
-          units: [
-            {
-              number: 1
-            },
-            {
-              number: 2
-            },
-            {
-              number: 3
-            },
-            {
-              number: 4
-            },
-            {
-              number: 5
-            },
-          ]
-        },
-        {
-          number: 3743,
-          units: [
-            {
-              number: 1
-            },
-            {
-              number: 2
-            },
-            {
-              number: 3
-            },
-          ]
-        },
-        {
-          number: 3745,
-          units: [
-            {
-              number: 1
-            },
-            {
-              number: 2
-            },
-            {
-              number: 3
-            },
-          ]
-        },
-      ]
+      buildings: false
     }
   },
+  mounted() {
+    fetch("http://localhost:3000/buildings?_embed=units")
+    .then(res => res.json())
+    .then(data => this.buildings = data)
+    .catch(e => console.log(e))
+  }
 }
 </script>
 

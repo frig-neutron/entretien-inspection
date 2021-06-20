@@ -1,0 +1,189 @@
+{
+    "buildings": [
+        {
+            "number": 3735,
+            "id": 3735
+        },
+        {
+            "number": 3737,
+            "id": 3737
+        },
+        {
+            "number": 3739,
+            "id": 3739
+        },
+        {
+            "number": 3743,
+            "id": 3743
+        },
+        {
+            "number": 3745,
+            "id": 3745
+        }
+    ],
+    "units": [
+        {
+            "number": 1,
+            "id": 1,
+            "buildingId": 3735,
+            "rooms": [
+                {
+                    "name": "Living Room / Salon",
+                    "elements": {
+                        "floor": {},
+                        "walls": {},
+                        "windows": {},
+                        "doors": {},
+                        "frenchDoors": {}
+                    }
+                },
+                {
+                    "name": "Corridor / Couloir"
+                },
+                {
+                    "name": "Kitchen / Cuisine"
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "id": 2,
+            "buildingId": 3735
+        },
+        {
+            "number": 3,
+            "id": 3,
+            "buildingId": 3735
+        },
+        {
+            "number": 4,
+            "id": 4,
+            "buildingId": 3735,
+            "rooms": [
+                {
+                    "name": "Living Room / Salon",
+                    "elements": {
+                        "floor": {},
+                        "walls": {},
+                        "windows": {},
+                        "doors": {},
+                        "frenchDoors": {},
+                        "balcony": {}
+                    }
+                },
+                {
+                    "name": "Corridor / Couloir",
+                    "elements": {
+                    }
+                },
+                {
+                    "name": "Kitchen / Cuisine",
+                    "elements": {
+                        "placard": {}
+                    }
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "id": 5,
+            "buildingId": 3735
+        },
+        {
+            "number": 6,
+            "id": 6,
+            "buildingId": 3735
+        },
+
+        {
+            "number": 1,
+            "id": 1,
+            "buildingId": 3737
+        },
+        {
+            "number": 2,
+            "id": 2,
+            "buildingId": 3737
+        },
+        {
+            "number": 3,
+            "id": 3,
+            "buildingId": 3737
+        },
+        {
+            "number": 4,
+            "id": 4,
+            "buildingId": 3737
+        },
+        {
+            "number": 5,
+            "id": 5,
+            "buildingId": 3737
+        },
+        {
+            "number": 6,
+            "id": 6,
+            "buildingId": 3737
+        },
+
+
+        {
+            "number": 1,
+            "id": 1,
+            "buildingId": 3739
+        },
+        {
+            "number": 2,
+            "id": 2,
+            "buildingId": 3739
+        },
+        {
+            "number": 3,
+            "id": 3,
+            "buildingId": 3739
+        },
+        {
+            "number": 4,
+            "id": 4,
+            "buildingId": 3739
+        },
+        {
+            "number": 5,
+            "id": 5,
+            "buildingId": 3739
+        },
+
+        {
+            "number": 1,
+            "id": 1,
+            "buildingId": 3743
+        },
+        {
+            "number": 2,
+            "id": 2,
+            "buildingId": 3743
+        },
+        {
+            "number": 3,
+            "id": 3,
+            "buildingId": 3743
+        },
+
+        {
+            "number": 1,
+            "id": 1,
+            "buildingId": 3745
+        },
+        {
+            "number": 2,
+            "id": 2,
+            "buildingId": 3745
+        },
+        {
+            "number": 3,
+            "id": 3,
+            "buildingId": 3745
+        }
+
+    ]
+}
