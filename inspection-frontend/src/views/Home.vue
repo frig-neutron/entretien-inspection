@@ -6,7 +6,7 @@
         <li v-for="unit in building.units">
           <router-link :to="{
             name: 'Unit',
-            params: { building: building.number, unit: unit.number }
+            params: { building: building.number, unitNumber: unit.number }
           }">Unit {{ unit.number }}
           </router-link>
         </li>

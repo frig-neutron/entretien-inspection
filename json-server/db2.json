@@ -29,13 +29,14 @@
             "rooms": [
                 {
                     "name": "Living Room / Salon",
-                    "elements": {
-                        "floor": {},
-                        "walls": {},
-                        "windows": {},
-                        "doors": {},
-                        "frenchDoors": {}
-                    }
+                    "elements": [
+                        "floor",
+                        "walls",
+                        "windows",
+                        "doors",
+                        "frenchDoors",
+                        "balcony"
+                    ]
                 },
                 {
                     "name": "Corridor / Couloir"
@@ -62,25 +63,102 @@
             "rooms": [
                 {
                     "name": "Living Room / Salon",
-                    "elements": {
-                        "floor": {},
-                        "walls": {},
-                        "windows": {},
-                        "doors": {},
-                        "frenchDoors": {},
-                        "balcony": {}
-                    }
+                    "elements": [
+                        "floor",
+                        "walls",
+                        "windows",
+                        "ceiling",
+                        "doors",
+                        "french-doors",
+                        "balcony"
+                    ]
                 },
                 {
                     "name": "Corridor / Couloir",
-                    "elements": {
-                    }
+                    "elements": [
+                        "floor",
+                        "walls",
+                        "ceiling",
+                        "intercom",
+                        "electric-panel",
+                        "electric-breakers"
+                    ]
+                },
+                {
+                    "name": "Bathroom / Salle de Bains",
+                    "elements": [
+                        "floor",
+                        "walls",
+                        "windows",
+                        "ceiling",
+                        "doors",
+                        "radiator",
+                        "washroom-sink",
+                        "bathtub",
+                        "electric-outlets",
+                        "electric-breakers"
+                    ]
                 },
                 {
                     "name": "Kitchen / Cuisine",
-                    "elements": {
-                        "placard": {}
-                    }
+                    "elements": [
+                        "floor",
+                        "walls",
+                        "windows",
+                        "ceiling",
+                        "doors",
+                        "cabinets",
+                        "counters",
+                        "furniture",
+                        "radiator",
+                        "kitchen-sink",
+                        "electric-outlets",
+                        "range-hood",
+                        "fridge",
+                        "stove"
+                    ]
+                },
+                {
+                    "name": "Dining Room / Salle a Manger",
+                    "elements": [
+                        "floor",
+                        "walls",
+                        "windows",
+                        "ceiling",
+                        "doors",
+                        "cabinets",
+                        "counters",
+                        "furniture",
+                        "radiator",
+                        "electric-outlets"
+                    ]
+                },
+                {
+                    "name": "Bed room / Piece 1",
+                    "elements": [
+                        "floor",
+                        "walls",
+                        "windows",
+                        "ceiling",
+                        "doors",
+                        "cabinets",
+                        "radiator",
+                        "electric-outlets"
+                    ]
+                },
+                {
+                    "name": "Back room / Piece 2",
+                    "elements": [
+                        "floor",
+                        "walls",
+                        "windows",
+                        "ceiling",
+                        "doors",
+                        "french-doors",
+                        "cabinets",
+                        "radiator",
+                        "electric-outlets"
+                    ]
                 }
             ]
         },

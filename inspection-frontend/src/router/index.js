@@ -15,7 +15,7 @@ const routes = [
     component: About
   },
   {
-    path :'/building/:building/unit/:unit',
+    path :'/building/:building/unit/:unitNumber',
     name: 'Unit',
     component: Unit,
     props: true
