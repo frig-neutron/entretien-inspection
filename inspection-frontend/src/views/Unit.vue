@@ -8,7 +8,8 @@
       <div class="room" v-for="room in unitTemplate.rooms">
         <h3>{{room.name}}</h3>
         <div class="element" v-for="elementId in room.elements">
-          {{ elementId }}
+          <!--suppress HtmlDeprecatedTag -->
+          <Element :element-id="elementId" />
         </div>
       </div>
     </div>
@@ -23,6 +24,7 @@ import Element from "../components/Element";
 
 export default {
   name: "Unit",
+  components: {Element},
   props: ["building", "unitNumber"],
   methods: {},
   data() {
@@ -40,4 +42,7 @@ export default {
 </script>
 
 <style>
+.room {
+  margin-bottom: 60px;
+}
 </style>
