@@ -13,14 +13,16 @@
       </ol>
     </div>
     <div>host: {{ hostname }}</div>
+    <TakeAPicture />
   </div>
 </template>
 
 <script>
 
+import TakeAPicture from "../components/TakeAPicture";
 export default {
   name: 'Home',
-  components: {},
+  components: {TakeAPicture},
   data() {
     return {
       hostname: "",
