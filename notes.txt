@@ -22,6 +22,8 @@ Workspaces
  - stg (not yet)
  - prd (net yet)
 
+Terraform project / webapps don't want to be created using regular user accounts - they want service accounts. Doing this with impersonation by setting up an impersonaned google-beta provider.
+
 
 
 Google Billing Budget
