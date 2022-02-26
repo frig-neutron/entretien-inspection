@@ -1,4 +1,6 @@
 terraform {
-  backend "local" {
+  backend "gcs" {
+    bucket = "db-tfstate"
+    prefix = "inspection"
   }
 }

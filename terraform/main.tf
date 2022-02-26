@@ -4,3 +4,9 @@ resource "google_project" "inspection" {
 
   billing_account = data.google_billing_account.default.id
 }
+
+# resource "google_firebase_project" "inspection" {
+#  provider = google-beta
+#  project  = google_project.inspection.project_id
+# }
+
