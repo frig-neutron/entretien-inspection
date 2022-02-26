@@ -21,3 +21,13 @@ Workspaces
  - dev
  - stg (not yet)
  - prd (net yet)
+
+
+
+Google Billing Budget
+---------------------
+- set up manually b/c the api requires a Service Account and not a personal account (which is too much for me)
+
+TODO: 
+ - bring budget under control w/ SA impersonation
+ - https://cloud.google.com/blog/topics/developers-practitioners/using-google-cloud-service-account-impersonation-your-terraform-code
